@@ -14,7 +14,7 @@ export default function EmployeeApplication() {
       </div></>
 
       <div className='personal'>
-        <h3>PERSONAL INFORMATION</h3>
+        <h3>PERSONAl</h3>
       </div></>
 
       <div className='personal_details'>
