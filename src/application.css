@@ -1,0 +1,38 @@
+*::before{
+}
+
+body{
+    background-color: #6C6A6A;
+}
+
+.topic1{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding:10px 60px;
+
+}
+
+.topic2{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 1250px;
+    font-weight: bold;
+}
+
+.personal{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.personal_details{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    align-items: end;
+}
+
+.textbox{
+    align-items:end;
+}
+
