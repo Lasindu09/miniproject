@@ -1,13 +1,18 @@
-
 import React from "react";
-import EmployeeApplication from "./componenets/application";
+import EmployeeApplication from "./pages/application";
+import { Route,Routes } from "react-router-dom";
+import submit from "./pages/submit";
+
 
 function App() {
     return (
-    <div>
-        <EmployeeApplication/>
-    </div>
+    
+        <div>
+            <submit/>
+        </div>
+            
     );
 }
-export default EmployeeApplication;
+export default submit;
+
 

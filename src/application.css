@@ -1,8 +1,9 @@
 *::before{
+    background-color: white;
 }
 
 body{
-    background-color: #6C6A6A;
+    background-color:#b5afaf;
 }
 
 .topic1{
@@ -26,13 +27,161 @@ body{
 }
 
 .personal_details{
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0 15px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field{
+    display: flex;
+    width: calc(100 / 3 - 10px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field label{
+    font-size: 12px;
+    font-weight: 500;
+    color:#2e2e2e;
+}
+
+.input-field input{
+    outline:none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    height: 42px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+    
+.position{
     font-family: sans-serif;
     font-size: 15px;
     padding-left: 30px;
 }
 
-.textbox{
-    align-items:end;
+.position_details{
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0 15px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
+.education{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+}
 
+.table1{
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0 15px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.table1 th{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 20;
+}
+
+.table1 tr{
+    background-color:#b5afaf;
+}
+
+.professional{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.table2{
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0 15px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.table2 th{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 20;
+}
+
+.table2 tr{
+    background-color:#b5afaf; 
+}
+
+.resume{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin-top:20px ;
+}
+
+.resume input{
+    background-color:white ;
+    border-radius: 5px;
+}
+
+.declaration{
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    position: relative;
+    margin: 0 15px;
+
+}
+
+.sign{
+    padding-left: 30px;
+    background-color: #ffffff;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    margin: 0 15px;
+}
+
+.submit{
+    padding-left: 30px; 
+}
